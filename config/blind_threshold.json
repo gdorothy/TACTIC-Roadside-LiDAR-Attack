@@ -1,0 +1,38 @@
+{
+  "full_power_points": 384,
+  "margin": 1.25,
+  "criterion": "behavioral reverse-engineering (fixed target): attacker-observed T free-flow signature (speed(T)-speed(A1)>=+0.8 m/s sustained 20 frames) or collision; P(blind)>=0.75 over 4 reps; f*=min(1.0, 1.25*min passing f); flat line = max over stable bins = 1.0; [25,30)m band has no stable solution even at full dose (empirical blinding dead-line)",
+  "f_star_flat": 1.0,
+  "bins": [
+    {
+      "lo": 8,
+      "hi": 12,
+      "f_star": 1.0,
+      "n_suggest": 384
+    },
+    {
+      "lo": 12,
+      "hi": 16,
+      "f_star": 1.0,
+      "n_suggest": 384
+    },
+    {
+      "lo": 16,
+      "hi": 20,
+      "f_star": 1.0,
+      "n_suggest": 384
+    },
+    {
+      "lo": 20,
+      "hi": 25,
+      "f_star": 1.0,
+      "n_suggest": 384
+    },
+    {
+      "lo": 30,
+      "hi": 40,
+      "f_star": 1.0,
+      "n_suggest": 384
+    }
+  ]
+}

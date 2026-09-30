@@ -1,0 +1,63 @@
+{
+  "ttc_thresh": 3.0,
+  "rear_end": {
+    "weights": {
+      "w_long_g": 0.15,
+      "w_acc_long_g": 0.7,
+      "w_ttc_g": 0.15,
+      "w_time_g": 0.1
+    },
+    "inst_stats": {
+      "mean": 0.5968878420583786,
+      "std": 0.38207893605992826,
+      "k_sigma": 3.0,
+      "min_scale": 0.05
+    },
+    "time_stats": {
+      "mean": 0.11899563609895468,
+      "std": 0.07020671178801073,
+      "k_sigma": 3.0,
+      "min_scale": 0.05
+    },
+    "metrics": {
+      "w_long_g": 0.15,
+      "w_acc_long_g": 0.7,
+      "w_ttc_g": 0.15,
+      "w_time_g": 0.1,
+      "ratio": 96.48924108308385,
+      "baseline_mean": 1.1930517454041512,
+      "baseline_std": 0.15381489130414572,
+      "baseline_cv": 0.1289254744994869,
+      "attack_mean": 115.1167539761362
+    }
+  },
+  "emergency_brake": {
+    "weights": {
+      "w_acc_long_g": 0.85,
+      "w_ttc_g": 0.15,
+      "w_time_g": 0.1
+    },
+    "inst_stats": {
+      "mean": 0.4038683924462859,
+      "std": 0.2940250736353968,
+      "k_sigma": 3.0,
+      "min_scale": 0.05
+    },
+    "time_stats": {
+      "mean": 0.11776319142437491,
+      "std": 0.06953083622136995,
+      "k_sigma": 3.0,
+      "min_scale": 0.05
+    },
+    "metrics": {
+      "w_acc_long_g": 0.85,
+      "w_ttc_g": 0.15,
+      "w_time_g": 0.1,
+      "ratio": 13.554083694989203,
+      "baseline_mean": 1.3887952066869036,
+      "baseline_std": 0.026536491531898257,
+      "baseline_cv": 0.019107548972360323,
+      "attack_mean": 18.823860020717813
+    }
+  }
+}

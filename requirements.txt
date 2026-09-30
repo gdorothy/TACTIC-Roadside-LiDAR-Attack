@@ -1,0 +1,5 @@
+numpy>=1.21
+requests>=2.28
+Pillow>=9.0
+# CARLA Python API (carla) is NOT on PyPI:
+# install the carla egg/wheel shipped with CARLA 0.9.14 (PythonAPI/carla/dist)
